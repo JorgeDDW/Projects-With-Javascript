@@ -4,7 +4,7 @@ const jokeBtn = document.getElementById('jokeBtn')
 
 jokeBtn.addEventListener('click', generateJoke)
 generateJoke()
-
+// using async await
 async function generateJoke(){
   const config = {
     headers: {
@@ -19,7 +19,7 @@ async function generateJoke(){
 }
 
 
-
+//using .then
 // jokeBtn.addEventListener('click', generateJoke)
 // generateJoke()
 
